@@ -1,0 +1,15 @@
+---
+description: Run validation checks whenever Playwright test cases are added or changed
+globs:
+  - src/tests/**/*.ts
+alwaysApply: false
+---
+
+When adding or modifying test cases under `src/tests`, run these checks before considering the change complete:
+
+```powershell
+npm run typecheck
+npm run lint
+```
+
+Use `npm run validate` when both checks should be run together.
