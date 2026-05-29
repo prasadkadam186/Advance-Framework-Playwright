@@ -312,6 +312,6 @@ Full prompt-by-prompt build log for Phase 1 lives at [`docs/phase1/prompts.md`](
 
 **Prasad Kadam**
 
-- LinkedIn: [prasadkadam](https://github.com/prasadkadam186)
+- LinkedIn: [prasadkadam](https://www.linkedin.com/in/prasad-kadam-7b9051256/)
 
 ---
