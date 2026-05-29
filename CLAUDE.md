@@ -1,9 +1,30 @@
-# Claude Instructions
+# Project Rules for Claude
 
-When creating or editing Playwright test cases in `src/tests`, run:
+**ALWAYS read [rules/](./rules/) before changing code.**
 
-```powershell
-npm run validate
+## Hard rules
+
+### Adding/modifying tests under `src/tests/**`
+
+After ANY test file change, you MUST run:
+
+```bash
+npm run typecheck
+npm run lint
 ```
 
-Do not consider the change complete until both TypeScript and ESLint checks pass.
+Both must pass (exit 0) before reporting task complete. See [rules/test-quality-checks.md](./rules/test-quality-checks.md).
+
+## Project structure
+
+- `src/api/` — API clients
+- `src/config/` — env/config loaders
+- `src/fixtures/` — Playwright fixtures
+- `src/pages/` — Page Objects
+- `src/testdata/` — CSV/JSON/XLSX test data
+- `src/tests/` — spec files
+- `src/utils/` — helpers (logger, CustomReporter)
+
+## Path aliases (tsconfig)
+
+`@api/*`, `@config/*`, `@fixtures/*`, `@pages/*`, `@testdata/*`, `@tests/*`, `@utils/*`

@@ -1,8 +1,6 @@
-# AGENTS.md
+# Augment Guidelines — AdvancePlaywrightFramework1x
 
-Universal agent instructions — read by Google Antigravity, OpenAI Codex, Aider, Jules, Cursor, and other AGENTS.md-compatible tools.
-
-Project: **AdvancePlaywrightFramework1x** — Playwright TypeScript framework.
+Playwright TypeScript framework. Page Object Model + fixtures + tags.
 
 ## Hard rules
 
@@ -42,28 +40,10 @@ Use aliases — no `../../../` imports.
 
 ## NPM scripts
 
-| Script | Purpose |
-|--------|---------|
-| `test` | run all |
-| `test:ui` | Playwright UI mode |
-| `test:chromium` / `test:firefox` / `test:webkit` | per-browser |
-| `test:debug` | inspector |
-| `test:p0` / `test:p1` / `test:e2e` / `test:lor` | tagged runs |
-| `test:report` | open HTML report |
-| `typecheck` | tsc --noEmit |
-| `lint` / `lint:fix` | ESLint |
-| `format` / `format:check` | Prettier |
-| `build` | tsc compile |
-| `clean` | wipe reports/cache |
-
-## Verification before completion
-
-Run before reporting any task done:
-
-```bash
-npm run typecheck && npm run lint
-```
+`test`, `test:ui`, `test:chromium`, `test:firefox`, `test:webkit`, `test:debug`,
+`test:p0`, `test:p1`, `test:e2e`, `test:lor`, `test:report`,
+`typecheck`, `lint`, `lint:fix`, `format`, `format:check`, `build`, `clean`.
 
 ## Full rules
 
-See [rules/](./rules/) for canonical rule source.
+See [rules/](./rules/) and [CLAUDE.md](./CLAUDE.md).
