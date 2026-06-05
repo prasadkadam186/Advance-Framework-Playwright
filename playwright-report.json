@@ -1,7 +1,7 @@
 {
   "config": {
-    "configFile": "C:\\Users\\Admin\\Desktop\\Advance-Framework-Playwright\\playwright.config.ts",
-    "rootDir": "C:/Users/Admin/Desktop/Advance-Framework-Playwright/src/tests",
+    "configFile": "D:\\PersonalProjects\\Advance-Framework-Playwright\\playwright.config.ts",
+    "rootDir": "D:/PersonalProjects/Advance-Framework-Playwright/src/tests",
     "forbidOnly": false,
     "fullyParallel": true,
     "globalSetup": null,
@@ -10,17 +10,21 @@
     "grep": {},
     "grepInvert": null,
     "maxFailures": 0,
-    "metadata": {},
+    "metadata": {
+      "actualWorkers": 1
+    },
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "C:/Users/Admin/Desktop/Advance-Framework-Playwright/test-results",
+        "outputDir": "D:/PersonalProjects/Advance-Framework-Playwright/test-results",
         "repeatEach": 1,
         "retries": 0,
-        "metadata": {},
+        "metadata": {
+          "actualWorkers": 1
+        },
         "id": "chromium",
         "name": "chromium",
-        "testDir": "C:/Users/Admin/Desktop/Advance-Framework-Playwright/src/tests",
+        "testDir": "D:/PersonalProjects/Advance-Framework-Playwright/src/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -28,13 +32,15 @@
         "timeout": 60000
       },
       {
-        "outputDir": "C:/Users/Admin/Desktop/Advance-Framework-Playwright/test-results",
+        "outputDir": "D:/PersonalProjects/Advance-Framework-Playwright/test-results",
         "repeatEach": 1,
         "retries": 0,
-        "metadata": {},
+        "metadata": {
+          "actualWorkers": 1
+        },
         "id": "firefox",
         "name": "firefox",
-        "testDir": "C:/Users/Admin/Desktop/Advance-Framework-Playwright/src/tests",
+        "testDir": "D:/PersonalProjects/Advance-Framework-Playwright/src/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -42,13 +48,15 @@
         "timeout": 60000
       },
       {
-        "outputDir": "C:/Users/Admin/Desktop/Advance-Framework-Playwright/test-results",
+        "outputDir": "D:/PersonalProjects/Advance-Framework-Playwright/test-results",
         "repeatEach": 1,
         "retries": 0,
-        "metadata": {},
+        "metadata": {
+          "actualWorkers": 1
+        },
         "id": "webkit",
         "name": "webkit",
-        "testDir": "C:/Users/Admin/Desktop/Advance-Framework-Playwright/src/tests",
+        "testDir": "D:/PersonalProjects/Advance-Framework-Playwright/src/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -72,11 +80,11 @@
         }
       ],
       [
-        "C:\\Users\\Admin\\Desktop\\Advance-Framework-Playwright\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
+        "D:\\PersonalProjects\\Advance-Framework-Playwright\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
         null
       ],
       [
-        "C:\\Users\\Admin\\Desktop\\Advance-Framework-Playwright\\src\\utils\\CustomReporter.ts",
+        "D:\\PersonalProjects\\Advance-Framework-Playwright\\src\\utils\\CustomReporter.ts",
         null
       ]
     ],
@@ -87,147 +95,86 @@
     "shard": null,
     "tags": [],
     "updateSnapshots": "missing",
-    "updateSourceMethod": "patch",
+    "updateSourceMethod": "3way",
     "version": "1.60.0",
     "workers": 4,
     "webServer": null
   },
   "suites": [
     {
-      "title": "example.spec.ts",
-      "file": "example.spec.ts",
+      "title": "login.spec.ts",
+      "file": "login.spec.ts",
       "column": 0,
       "line": 0,
-      "specs": [
+      "specs": [],
+      "suites": [
         {
-          "title": "has title",
-          "ok": true,
-          "tags": [],
-          "tests": [
+          "title": "Login Test",
+          "file": "login.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
             {
-              "timeout": 60000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [],
-              "status": "skipped"
+              "title": "Login to the Application",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4800,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2026-06-05 18:13:09 \u001b[32minfo\u001b[39m [UiElementLocator] Clear '<Locator>'\r\n"
+                        },
+                        {
+                          "text": "2026-06-05 18:13:09 \u001b[32minfo\u001b[39m [UiElementLocator] Fill '<Locator>' with 'standard_user'\r\n"
+                        },
+                        {
+                          "text": "2026-06-05 18:13:09 \u001b[32minfo\u001b[39m [UiElementLocator] Clear '<Locator>'\r\n"
+                        },
+                        {
+                          "text": "2026-06-05 18:13:09 \u001b[32minfo\u001b[39m [UiElementLocator] Fill '<Locator>' with 'tta_secret'\r\n"
+                        },
+                        {
+                          "text": "2026-06-05 18:13:09 \u001b[32minfo\u001b[39m [UiElementLocator] Click on '<Locator>'\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-05T12:43:01.373Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-d04bd7e4873821d10d3b",
+              "file": "login.spec.ts",
+              "line": 11,
+              "column": 9
             }
-          ],
-          "id": "a30a6eba6312f6b87ea5-b06063a3e613764d08f8",
-          "file": "example.spec.ts",
-          "line": 3,
-          "column": 5
-        },
-        {
-          "title": "get started link",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 60000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [],
-              "status": "skipped"
-            }
-          ],
-          "id": "a30a6eba6312f6b87ea5-274e97907a6e3638a22f",
-          "file": "example.spec.ts",
-          "line": 10,
-          "column": 5
-        },
-        {
-          "title": "has title",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 60000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [],
-              "status": "skipped"
-            }
-          ],
-          "id": "a30a6eba6312f6b87ea5-f53a5ad453cd33dc57d5",
-          "file": "example.spec.ts",
-          "line": 3,
-          "column": 5
-        },
-        {
-          "title": "get started link",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 60000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [],
-              "status": "skipped"
-            }
-          ],
-          "id": "a30a6eba6312f6b87ea5-bfe080d6fe34297f494c",
-          "file": "example.spec.ts",
-          "line": 10,
-          "column": 5
-        },
-        {
-          "title": "has title",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 60000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "webkit",
-              "projectName": "webkit",
-              "results": [],
-              "status": "skipped"
-            }
-          ],
-          "id": "a30a6eba6312f6b87ea5-4a26ebd06a6b810edcc2",
-          "file": "example.spec.ts",
-          "line": 3,
-          "column": 5
-        },
-        {
-          "title": "get started link",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 60000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "webkit",
-              "projectName": "webkit",
-              "results": [],
-              "status": "skipped"
-            }
-          ],
-          "id": "a30a6eba6312f6b87ea5-1eb159041d56409ed83c",
-          "file": "example.spec.ts",
-          "line": 10,
-          "column": 5
+          ]
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-05-28T03:15:13.605Z",
-    "duration": 40.567999999999984,
-    "expected": 0,
-    "skipped": 6,
+    "startTime": "2026-06-05T12:42:57.951Z",
+    "duration": 12756.396,
+    "expected": 1,
+    "skipped": 0,
     "unexpected": 0,
     "flaky": 0
   }
