@@ -9,3 +9,17 @@ node_modules/
 
 # Logs
 /logs/
+
+# Environment — never commit credentials
+.env
+.env.local
+.env.*.local
+
+# Generated test artifacts
+/allure-results/
+/allure-report/
+/playwright-report.json
+/tta-report/report_*.html
+/tta-report/screenshots/
+/tta-report/videos/
+/tta-report/traces/

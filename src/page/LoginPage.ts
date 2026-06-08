@@ -1,8 +1,10 @@
 import { Locator, Page } from "@playwright/test";
 import { BasePage } from "./BasePage";
+import { ENV } from "@config/env.config";
 
 export class LoginPage extends BasePage{
-    static readonly url = 'https://app.thetestingacademy.com/playwright/ttacart/';
+    static readonly path = '';
+    static get url(): string { return ENV.baseUrl + LoginPage.path; }
     private readonly usernameInputField : Locator;
     private readonly passwordInputField : Locator;
     private readonly loginButtonField : Locator;

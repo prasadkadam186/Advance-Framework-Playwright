@@ -14,6 +14,7 @@
       "@modules/*": ["./src/modules/*"],
       "@utils/*": ["./src/utils/*"],
       "@fixtures/*": ["./src/fixtures/*"],
+      "@fixture/*": ["./src/fixture/*"],
       "@api/*": ["./src/api/*"],
       "@config/*": ["./src/config/*"],
       "@testdata/*": ["./src/testdata/*"]
