@@ -206,7 +206,7 @@ PROD_BASE_URL=https://app.thetestingacademy.com
 DEV_BASE_URL=http://localhost:3000
 LOG_LEVEL=info            # winston log level
 TEST_ENV=UAT              # shown in TTA report
-TEST_AUTHOR=Pramod
+TEST_AUTHOR=Prasad
 ```
 
 Switch env:

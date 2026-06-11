@@ -1,6 +1,6 @@
 /**
  * Custom TTA Reporter for Playwright
- * @author Pramod Dutta
+ * @author Prasad Kadam
  * @website https://thetestingacademy.com
  * @version 1.0.0
  * @description Custom HTML Reporter for Playwright Test Automation Framework
@@ -652,15 +652,14 @@ class CustomTTAReporter implements Reporter {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TTA Automation Report</title>
+    <title>Automation Report</title>
     <style>
         ${this.getStyles()}
     </style>
 </head>
 <body>
     <div class="header">
-        <h1>🎭 TTA Automation Report</h1>
-        <p class="header-subtitle">The Testing Academy - Playwright Framework</p>
+        <h1>Automation Report</h1>
     </div>
 
     <div class="container">
@@ -677,7 +676,7 @@ class CustomTTAReporter implements Reporter {
     </div>
 
     <footer class="report-footer">
-        <p>Built with ❤️ by <a href="https://thetestingacademy.com" target="_blank">Pramod Dutta</a> | <a href="https://thetestingacademy.com" target="_blank">The Testing Academy</a></p>
+        <p>Built by Prasad Kadam</a></p>
     </footer>
 
     <script>
