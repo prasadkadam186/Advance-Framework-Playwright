@@ -90,7 +90,7 @@ class CustomTTAReporter implements Reporter {
         const totalTests = suite.allTests().length;
         
         console.log('\n╔════════════════════════════════════════════════════════════════╗');
-        console.log('║        🎭 TTA PLAYWRIGHT AUTOMATION - REAL-TIME REPORT         ║');
+        console.log('║         AUTOMATION - REPORT         ║');
         console.log('╠════════════════════════════════════════════════════════════════╣');
         console.log(`║  📅 Started: ${this.startTime.toLocaleString().padEnd(47)}║`);
         console.log(`║  📊 Total Tests: ${String(totalTests).padEnd(44)}║`);
