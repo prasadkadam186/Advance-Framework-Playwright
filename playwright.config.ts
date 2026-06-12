@@ -48,7 +48,7 @@ export default defineConfig({
 
   use: {
     baseURL: resolveBaseUrl(),
-    trace: 'on-first-retry',
+    trace: 'retain-on-failure',
     screenshot: 'only-on-failure',
     video: 'on',
   },

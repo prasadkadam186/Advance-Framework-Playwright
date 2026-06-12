@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 3
+      "actualWorkers": 1
     },
     "preserveOutput": "always",
     "projects": [
@@ -20,7 +20,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 3
+          "actualWorkers": 1
         },
         "id": "chromium",
         "name": "chromium",
@@ -36,7 +36,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 3
+          "actualWorkers": 1
         },
         "id": "firefox",
         "name": "firefox",
@@ -52,7 +52,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 3
+          "actualWorkers": 1
         },
         "id": "webkit",
         "name": "webkit",
@@ -129,100 +129,105 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 8192,
+                      "duration": 6479,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "2026-06-11 12:45:32 \u001b[32minfo\u001b[39m [UiElementLocator] Clear '<Locator>'\r\n"
+                          "text": "2026-06-12 15:31:01 \u001b[32minfo\u001b[39m [UiElementLocator] Clear '<Locator>'\r\n"
                         },
                         {
-                          "text": "2026-06-11 12:45:33 \u001b[32minfo\u001b[39m [UiElementLocator] Fill '<Locator>' with 'standard_user'\r\n"
+                          "text": "2026-06-12 15:31:02 \u001b[32minfo\u001b[39m [UiElementLocator] Fill '<Locator>' with 'standard_user'\r\n"
                         },
                         {
-                          "text": "2026-06-11 12:45:33 \u001b[32minfo\u001b[39m [UiElementLocator] Clear '<Locator>'\r\n"
+                          "text": "2026-06-12 15:31:02 \u001b[32minfo\u001b[39m [UiElementLocator] Clear '<Locator>'\r\n"
                         },
                         {
-                          "text": "2026-06-11 12:45:33 \u001b[32minfo\u001b[39m [UiElementLocator] Fill '<Locator>' with 'tta_secret'\r\n"
+                          "text": "2026-06-12 15:31:02 \u001b[32minfo\u001b[39m [UiElementLocator] Fill '<Locator>' with 'tta_secret'\r\n"
                         },
                         {
-                          "text": "2026-06-11 12:45:33 \u001b[32minfo\u001b[39m [UiElementLocator] Click on '<Locator>'\r\n"
+                          "text": "2026-06-12 15:31:02 \u001b[32minfo\u001b[39m [UiElementLocator] Click on '<Locator>'\r\n"
                         },
                         {
-                          "text": "2026-06-11 12:45:33 \u001b[32minfo\u001b[39m [InventryPage] Adding 'TTA Bike Light' to cart\r\n"
+                          "text": "2026-06-12 15:31:02 \u001b[32minfo\u001b[39m [InventryPage] Adding 'TTA Bike Light' to cart\r\n"
                         },
                         {
-                          "text": "2026-06-11 12:45:33 \u001b[32minfo\u001b[39m [UiElementLocator] Click on '<Locator>'\r\n"
+                          "text": "2026-06-12 15:31:02 \u001b[32minfo\u001b[39m [UiElementLocator] Click on '<Locator>'\r\n"
                         },
                         {
-                          "text": "2026-06-11 12:45:33 \u001b[32minfo\u001b[39m [CardPage] Navigating to Cart page\r\n"
+                          "text": "2026-06-12 15:31:02 \u001b[32minfo\u001b[39m [CardPage] Navigating to Cart page\r\n"
                         },
                         {
-                          "text": "2026-06-11 12:45:35 \u001b[32minfo\u001b[39m [CardPage] Clicking Checkout → proceeding to checkout step 1\r\n"
+                          "text": "2026-06-12 15:31:03 \u001b[32minfo\u001b[39m [CardPage] Clicking Checkout → proceeding to checkout step 1\r\n"
                         },
                         {
-                          "text": "2026-06-11 12:45:35 \u001b[32minfo\u001b[39m [UiElementLocator] Click on '<Locator>'\r\n"
+                          "text": "2026-06-12 15:31:03 \u001b[32minfo\u001b[39m [UiElementLocator] Click on '<Locator>'\r\n"
                         },
                         {
-                          "text": "2026-06-11 12:45:35 \u001b[32minfo\u001b[39m [Checkout1Page] Filling checkout info — 'Arianna Quitzon', postal: '47704'\r\n"
+                          "text": "2026-06-12 15:31:04 \u001b[32minfo\u001b[39m [Checkout1Page] Filling checkout info — 'Jacqueline Hammes', postal: '78673'\r\n"
                         },
                         {
-                          "text": "2026-06-11 12:45:35 \u001b[32minfo\u001b[39m [Checkout1Page] Filling First Name: 'Arianna'\r\n"
+                          "text": "2026-06-12 15:31:04 \u001b[32minfo\u001b[39m [Checkout1Page] Filling First Name: 'Jacqueline'\r\n"
                         },
                         {
-                          "text": "2026-06-11 12:45:35 \u001b[32minfo\u001b[39m [UiElementLocator] Clear '<Locator>'\r\n"
+                          "text": "2026-06-12 15:31:04 \u001b[32minfo\u001b[39m [UiElementLocator] Clear '<Locator>'\r\n"
                         },
                         {
-                          "text": "2026-06-11 12:45:35 \u001b[32minfo\u001b[39m [UiElementLocator] Fill '<Locator>' with 'Arianna'\r\n"
+                          "text": "2026-06-12 15:31:04 \u001b[32minfo\u001b[39m [UiElementLocator] Fill '<Locator>' with 'Jacqueline'\r\n"
                         },
                         {
-                          "text": "2026-06-11 12:45:35 \u001b[32minfo\u001b[39m [Checkout1Page] Filling Last Name: 'Quitzon'\r\n"
+                          "text": "2026-06-12 15:31:04 \u001b[32minfo\u001b[39m [Checkout1Page] Filling Last Name: 'Hammes'\r\n"
                         },
                         {
-                          "text": "2026-06-11 12:45:35 \u001b[32minfo\u001b[39m [UiElementLocator] Clear '<Locator>'\r\n"
+                          "text": "2026-06-12 15:31:04 \u001b[32minfo\u001b[39m [UiElementLocator] Clear '<Locator>'\r\n"
                         },
                         {
-                          "text": "2026-06-11 12:45:35 \u001b[32minfo\u001b[39m [UiElementLocator] Fill '<Locator>' with 'Quitzon'\r\n"
+                          "text": "2026-06-12 15:31:04 \u001b[32minfo\u001b[39m [UiElementLocator] Fill '<Locator>' with 'Hammes'\r\n"
                         },
                         {
-                          "text": "2026-06-11 12:45:35 \u001b[32minfo\u001b[39m [Checkout1Page] Filling Postal/Pin Code: '47704'\r\n"
+                          "text": "2026-06-12 15:31:04 \u001b[32minfo\u001b[39m [Checkout1Page] Filling Postal/Pin Code: '78673'\r\n"
                         },
                         {
-                          "text": "2026-06-11 12:45:35 \u001b[32minfo\u001b[39m [UiElementLocator] Clear '<Locator>'\r\n"
+                          "text": "2026-06-12 15:31:04 \u001b[32minfo\u001b[39m [UiElementLocator] Clear '<Locator>'\r\n"
                         },
                         {
-                          "text": "2026-06-11 12:45:36 \u001b[32minfo\u001b[39m [UiElementLocator] Fill '<Locator>' with '47704'\r\n"
+                          "text": "2026-06-12 15:31:04 \u001b[32minfo\u001b[39m [UiElementLocator] Fill '<Locator>' with '78673'\r\n"
                         },
                         {
-                          "text": "2026-06-11 12:45:36 \u001b[32minfo\u001b[39m [Checkout1Page] Clicking Continue → proceeding to Checkout Step 2\r\n"
+                          "text": "2026-06-12 15:31:05 \u001b[32minfo\u001b[39m [Checkout1Page] Clicking Continue → proceeding to Checkout Step 2\r\n"
                         },
                         {
-                          "text": "2026-06-11 12:45:36 \u001b[32minfo\u001b[39m [UiElementLocator] Click on '<Locator>'\r\n"
+                          "text": "2026-06-12 15:31:05 \u001b[32minfo\u001b[39m [UiElementLocator] Click on '<Locator>'\r\n"
                         },
                         {
-                          "text": "2026-06-11 12:45:36 \u001b[32minfo\u001b[39m [Checkout2Page] Clicking Finish → completing checkout\r\n"
+                          "text": "2026-06-12 15:31:05 \u001b[32minfo\u001b[39m [Checkout2Page] Clicking Finish → completing checkout\r\n"
                         },
                         {
-                          "text": "2026-06-11 12:45:36 \u001b[32minfo\u001b[39m [UiElementLocator] Click on '<Locator>'\r\n"
+                          "text": "2026-06-12 15:31:05 \u001b[32minfo\u001b[39m [UiElementLocator] Click on '<Locator>'\r\n"
                         },
                         {
-                          "text": "2026-06-11 12:45:37 \u001b[32minfo\u001b[39m [CheckoutComplete] Clicking Back Home → returning to Inventory\r\n"
+                          "text": "2026-06-12 15:31:05 \u001b[32minfo\u001b[39m [CheckoutComplete] Clicking Back Home → returning to Inventory\r\n"
                         },
                         {
-                          "text": "2026-06-11 12:45:37 \u001b[32minfo\u001b[39m [UiElementLocator] Click on '<Locator>'\r\n"
+                          "text": "2026-06-12 15:31:05 \u001b[32minfo\u001b[39m [UiElementLocator] Click on '<Locator>'\r\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-06-11T07:15:28.872Z",
+                      "startTime": "2026-06-12T10:00:59.838Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "video",
                           "contentType": "video/webm",
                           "path": "D:\\PersonalProjects\\Advance-Framework-Playwright\\test-results\\e2e--P0-End-2-End-Testing--423ee-t-1-→-Checkout-2-→-Complete-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\PersonalProjects\\Advance-Framework-Playwright\\test-results\\e2e--P0-End-2-End-Testing--423ee-t-1-→-Checkout-2-→-Complete-chromium\\trace.zip"
                         }
                       ]
                     }
@@ -234,248 +239,6 @@
               "file": "e2e.spec.ts",
               "line": 14,
               "column": 9
-            },
-            {
-              "title": "Login → Add to cart → Checkout 1 → Checkout 2 → Complete",
-              "ok": true,
-              "tags": [
-                "P0"
-              ],
-              "tests": [
-                {
-                  "timeout": 60000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
-                      "status": "passed",
-                      "duration": 13159,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "2026-06-11 12:45:36 \u001b[32minfo\u001b[39m [UiElementLocator] Clear '<Locator>'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:36 \u001b[32minfo\u001b[39m [UiElementLocator] Fill '<Locator>' with 'standard_user'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:36 \u001b[32minfo\u001b[39m [UiElementLocator] Clear '<Locator>'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:37 \u001b[32minfo\u001b[39m [UiElementLocator] Fill '<Locator>' with 'tta_secret'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:37 \u001b[32minfo\u001b[39m [UiElementLocator] Click on '<Locator>'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:38 \u001b[32minfo\u001b[39m [InventryPage] Adding 'TTA Bike Light' to cart\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:38 \u001b[32minfo\u001b[39m [UiElementLocator] Click on '<Locator>'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:38 \u001b[32minfo\u001b[39m [CardPage] Navigating to Cart page\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:39 \u001b[32minfo\u001b[39m [CardPage] Clicking Checkout → proceeding to checkout step 1\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:39 \u001b[32minfo\u001b[39m [UiElementLocator] Click on '<Locator>'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:40 \u001b[32minfo\u001b[39m [Checkout1Page] Filling checkout info — 'Cielo Muller', postal: '96287'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:40 \u001b[32minfo\u001b[39m [Checkout1Page] Filling First Name: 'Cielo'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:40 \u001b[32minfo\u001b[39m [UiElementLocator] Clear '<Locator>'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:40 \u001b[32minfo\u001b[39m [UiElementLocator] Fill '<Locator>' with 'Cielo'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:40 \u001b[32minfo\u001b[39m [Checkout1Page] Filling Last Name: 'Muller'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:40 \u001b[32minfo\u001b[39m [UiElementLocator] Clear '<Locator>'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:40 \u001b[32minfo\u001b[39m [UiElementLocator] Fill '<Locator>' with 'Muller'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:40 \u001b[32minfo\u001b[39m [Checkout1Page] Filling Postal/Pin Code: '96287'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:40 \u001b[32minfo\u001b[39m [UiElementLocator] Clear '<Locator>'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:40 \u001b[32minfo\u001b[39m [UiElementLocator] Fill '<Locator>' with '96287'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:40 \u001b[32minfo\u001b[39m [Checkout1Page] Clicking Continue → proceeding to Checkout Step 2\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:40 \u001b[32minfo\u001b[39m [UiElementLocator] Click on '<Locator>'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:43 \u001b[32minfo\u001b[39m [Checkout2Page] Clicking Finish → completing checkout\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:43 \u001b[32minfo\u001b[39m [UiElementLocator] Click on '<Locator>'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:43 \u001b[32minfo\u001b[39m [CheckoutComplete] Clicking Back Home → returning to Inventory\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:43 \u001b[32minfo\u001b[39m [UiElementLocator] Click on '<Locator>'\r\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-06-11T07:15:28.907Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "D:\\PersonalProjects\\Advance-Framework-Playwright\\test-results\\e2e--P0-End-2-End-Testing--423ee-t-1-→-Checkout-2-→-Complete-firefox\\video.webm"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "b1c7859d981cc20c96be-b975ce3f18b1173729be",
-              "file": "e2e.spec.ts",
-              "line": 14,
-              "column": 9
-            },
-            {
-              "title": "Login → Add to cart → Checkout 1 → Checkout 2 → Complete",
-              "ok": true,
-              "tags": [
-                "P0"
-              ],
-              "tests": [
-                {
-                  "timeout": 60000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "webkit",
-                  "projectName": "webkit",
-                  "results": [
-                    {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
-                      "status": "passed",
-                      "duration": 20248,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "2026-06-11 12:45:31 \u001b[32minfo\u001b[39m [UiElementLocator] Clear '<Locator>'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:32 \u001b[32minfo\u001b[39m [UiElementLocator] Fill '<Locator>' with 'standard_user'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:34 \u001b[32minfo\u001b[39m [UiElementLocator] Clear '<Locator>'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:36 \u001b[32minfo\u001b[39m [UiElementLocator] Fill '<Locator>' with 'tta_secret'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:37 \u001b[32minfo\u001b[39m [UiElementLocator] Click on '<Locator>'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:39 \u001b[32minfo\u001b[39m [InventryPage] Adding 'TTA Bike Light' to cart\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:39 \u001b[32minfo\u001b[39m [UiElementLocator] Click on '<Locator>'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:40 \u001b[32minfo\u001b[39m [CardPage] Navigating to Cart page\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:43 \u001b[32minfo\u001b[39m [CardPage] Clicking Checkout → proceeding to checkout step 1\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:43 \u001b[32minfo\u001b[39m [UiElementLocator] Click on '<Locator>'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:44 \u001b[32minfo\u001b[39m [Checkout1Page] Filling checkout info — 'Joanne Crooks', postal: '49650-3393'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:44 \u001b[32minfo\u001b[39m [Checkout1Page] Filling First Name: 'Joanne'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:44 \u001b[32minfo\u001b[39m [UiElementLocator] Clear '<Locator>'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:44 \u001b[32minfo\u001b[39m [UiElementLocator] Fill '<Locator>' with 'Joanne'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:45 \u001b[32minfo\u001b[39m [Checkout1Page] Filling Last Name: 'Crooks'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:45 \u001b[32minfo\u001b[39m [UiElementLocator] Clear '<Locator>'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:45 \u001b[32minfo\u001b[39m [UiElementLocator] Fill '<Locator>' with 'Crooks'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:45 \u001b[32minfo\u001b[39m [Checkout1Page] Filling Postal/Pin Code: '49650-3393'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:45 \u001b[32minfo\u001b[39m [UiElementLocator] Clear '<Locator>'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:45 \u001b[32minfo\u001b[39m [UiElementLocator] Fill '<Locator>' with '49650-3393'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:45 \u001b[32minfo\u001b[39m [Checkout1Page] Clicking Continue → proceeding to Checkout Step 2\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:45 \u001b[32minfo\u001b[39m [UiElementLocator] Click on '<Locator>'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:46 \u001b[32minfo\u001b[39m [Checkout2Page] Clicking Finish → completing checkout\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:46 \u001b[32minfo\u001b[39m [UiElementLocator] Click on '<Locator>'\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:48 \u001b[32minfo\u001b[39m [CheckoutComplete] Clicking Back Home → returning to Inventory\r\n"
-                        },
-                        {
-                          "text": "2026-06-11 12:45:48 \u001b[32minfo\u001b[39m [UiElementLocator] Click on '<Locator>'\r\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-06-11T07:15:28.908Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "D:\\PersonalProjects\\Advance-Framework-Playwright\\test-results\\e2e--P0-End-2-End-Testing--423ee-t-1-→-Checkout-2-→-Complete-webkit\\video.webm"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "b1c7859d981cc20c96be-13367a2d31cd8d4d9d8c",
-              "file": "e2e.spec.ts",
-              "line": 14,
-              "column": 9
             }
           ]
         }
@@ -484,9 +247,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-06-11T07:15:25.544Z",
-    "duration": 24152.068,
-    "expected": 3,
+    "startTime": "2026-06-12T10:00:56.725Z",
+    "duration": 11008.437000000005,
+    "expected": 1,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
