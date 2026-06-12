@@ -1,6 +1,6 @@
-# Advance Playwright Framework (1.x)
+# Advance Playwright Framework
 
-> Production-grade Playwright + TypeScript automation framework built by [Pramod Dutta](https://thetestingacademy.com) for **The Testing Academy**.
+> Production-grade Playwright + TypeScript automation framework built by [Prasad Kadam](https://www.linkedin.com/in/prasad-kadam-7b9051256/).
 
 [![Playwright](https://img.shields.io/badge/Playwright-1.60-2EAD33?logo=playwright&logoColor=white)](https://playwright.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
@@ -120,8 +120,8 @@ AdvancePlaywrightFramework1x/
 ### Install
 
 ```bash
-git clone https://github.com/PramodDutta/AdvancePlaywrightFramework1x.git
-cd AdvancePlaywrightFramework1x
+git clone https://github.com/prasadkadam186/Advance-Framework-Playwright.git
+cd Advance-Framework-Playwright
 npm install
 npx playwright install --with-deps
 ```
